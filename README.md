@@ -36,6 +36,12 @@ This folder provides an all-encompassing working structure for empirical papers.
 
 ## 1: Organize your files
 
+In the main folder (root directory), place:
+
+- A **README** file that gives a basic overview of your project.
+- A **master script** that lists and runs all other scripts.
+
+
 ##### `/input`
 
 
@@ -68,7 +74,9 @@ This folder provides an all-encompassing working structure for empirical papers.
  ##### `/extra`
 
 - Contains any extra file relevant to the paper.
-- A short README.txt file that describes how to run the code is also recommended.
+
+
+
 
 ## 2: Organize code
 
@@ -167,7 +175,7 @@ after refactoring becomes
 
 ## 7: References
 
-- https://raw.githack.com/OU-PhD-Econometrics/fall-2022/master/LectureNotes/01a-CleanCode/01aslides.html#1
-- https://raw.githack.com/msu-econ-data-analytics/course-materials/main/lecture-slides/07-Best-Practices/07-Best-Practices.html#25
-- https://scholar.harvard.edu/files/ristovska/files/coding_for_econs_20190221.pdf
-- https://github.com/rdahis/paper_template
+- [Clean Code](https://raw.githack.com/OU-PhD-Econometrics/fall-2022/master/LectureNotes/01a-CleanCode/01aslides.html#1) (Ransom, 2022)
+- [Best Practices for Coding & Workflows](https://raw.githack.com/msu-econ-data-analytics/course-materials/main/lecture-slides/07-Best-Practices/07-Best-Practices.html#25) (Hagerty, 2022)
+- [Coding for Economists: A Language-Agnostic Guide to Programming for Economists  ](https://scholar.harvard.edu/files/ristovska/files/coding_for_econs_20190221.pdf) (Ljubica "LJ" Ristovska 2019).
+- [Ricardo Dahis template](https://github.com/rdahis/paper_template)
