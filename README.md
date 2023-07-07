@@ -1,3 +1,14 @@
+This folder provides an all-encompassing working structure for empirical papers.
+
+## Summary
+0. Workflow
+1. Organize your files
+2. Organize your code
+3. Version control
+4. Abstract 
+5. Comment often to explain purpose
+6. Test-driven development (unit testing, refactoring, profiling)
+7. References
 
 
 
@@ -61,6 +72,14 @@
 
 ## 2: Organize code
 
+1. Break programs into short scripts or functions, each of which conducts a single task.
+2. Make names distinctive and meaningful.
+3. Be consistent with code style and formatting.
+  - Directory structure
+  - Code and comment style
+  - File naming conventions
+  - Variable naming conventions
+  - Output data structure
 
 
 ## 3: Version control
@@ -145,3 +164,10 @@ after refactoring becomes
 - How much processing time does your script take? How much memory?
 - Clean code should be highly performant: it uses minimal computational resources
 - Profiling and refactoring go hand in hand, along with unit testing, to ensure that code is maximally optimized
+
+## 7: References
+
+- https://raw.githack.com/OU-PhD-Econometrics/fall-2022/master/LectureNotes/01a-CleanCode/01aslides.html#1
+- https://raw.githack.com/msu-econ-data-analytics/course-materials/main/lecture-slides/07-Best-Practices/07-Best-Practices.html#25
+- https://scholar.harvard.edu/files/ristovska/files/coding_for_econs_20190221.pdf
+- https://github.com/rdahis/paper_template
