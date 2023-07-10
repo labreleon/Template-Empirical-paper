@@ -1,7 +1,6 @@
 This folder provides an all-encompassing working structure for empirical papers.
 
 ## Summary
-0. Workflow
 1. Organize your files
 2. Organize your code
 3. Version control
@@ -12,9 +11,6 @@ This folder provides an all-encompassing working structure for empirical papers.
 
 
 
-## 0. Workflow
-
-![](https://raw.githubusercontent.com/labreleon/paper_template/master/extra/workflow.png)
 
 
 
@@ -51,8 +47,12 @@ In the main folder (root directory), place:
 
 ##### `/input`
 
+`Raw`
 
-- Symbolic link to non-versioned folder with input data.
+- Symbolic link to non-versioned folder with raw data.
+
+`Clean`
+
 - Any original data source should be included here in clean and normalized form.
 - Only include cleaned files. Raw external files should be cleaned in each data source specific folder.
 -  These data sets will then be manipulated and merged by the files in /code.
