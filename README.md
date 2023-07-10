@@ -29,7 +29,7 @@ This folder provides an all-encompassing working structure for empirical papers.
 
 - When you use version control, it forces you to make directories portable (otherwise a collaborator will not be able to run your code)
      - Use relative filepaths (`"../input/data.csv"`) instead of (`"C:/build/input/data.csv"`).
- Run `sh setup.sh` to create symbolic links to all non-versioned folders.
+
 
 
 
