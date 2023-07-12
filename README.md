@@ -50,11 +50,6 @@ In the main folder (root directory), place:
 `Raw`
 
 - Symbolic link to non-versioned folder with raw data.
-
-`Clean`
-
-- Any original data source should be included here in clean and normalized form.
-- Only include cleaned files. Raw external files should be cleaned in each data source specific folder.
 -  These data sets will then be manipulated and merged by the files in /code.
 
 ##### `/output`
